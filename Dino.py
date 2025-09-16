@@ -1,7 +1,5 @@
 import pygame
-
-from Const import DUCKING, RUNNING, JUMPING
-
+from Const import DUCKING, RUNNING, JUMPING  # Importando as sprites
 
 class Dino:
     X_POS = 80

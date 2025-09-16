@@ -1,7 +1,5 @@
 import random
-
 from Const import SCREEN_WIDTH, CLOUD
-
 
 class Cloud:
     def __init__(self, game_speed):

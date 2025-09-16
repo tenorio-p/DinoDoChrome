@@ -1,7 +1,5 @@
 import random
-
 from Const import SCREEN_WIDTH
-
 
 class Obstacle:
     def __init__(self, image, type):
