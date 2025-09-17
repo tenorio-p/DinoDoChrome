@@ -20,6 +20,12 @@ FONT_MEDIUM = 25
 FONT_LARGE = 30
 FONT_XL = 40
 
+# Sons
+JUMP_SOUND = pygame.mixer.Sound(os.path.join("Assets/sounds", "jump.wav"))
+DEATH_SOUND = pygame.mixer.Sound(os.path.join("Assets/sounds", "hit.wav"))
+SCORE_SOUND = pygame.mixer.Sound(os.path.join("Assets/sounds", "score.wav"))
+
+
 # Textos
 TEXT_PRESS_START = "Pressione qualquer tecla para começar"
 TEXT_GAME_OVER = "Game Over"
@@ -49,4 +55,5 @@ BIRD = [pygame.image.load(os.path.join("Assets/bird", "Bird1.png")),
         pygame.image.load(os.path.join("Assets/bird", "Bird2.png"))]
 
 CLOUD = pygame.image.load(os.path.join("Assets/others", "cloud.png"))
-BG = pygame.image.load(os.path.join("Assets/others", "Track.png"))
+BG_DAY = pygame.image.load(os.path.join("Assets/others", "TrackDay.png"))
+BG_NIGHT = pygame.image.load(os.path.join("Assets/others", "TrackNight.png"))

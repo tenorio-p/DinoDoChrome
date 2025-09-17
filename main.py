@@ -1,5 +1,5 @@
 import pygame
-pygame.init()  # <-- Adicione isso ANTES de criar o Game()
+pygame.init()
 
 from Game import Game
 
